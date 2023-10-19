@@ -1,504 +1,442 @@
 <!DOCTYPE html>
 <html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <!-- 
+		<!--
     - primary meta tags
   -->
-  <title>Stol Stul</title>
-  <meta name="title" content="Stol Stul">
-  <meta name="description" content="Stol Stul">
+		<title>Stol Stul</title>
+		<meta name="title" content="Stol Stul" />
+		<meta name="description" content="Stol Stul" />
 
-  <!-- 
+		<!--
     - favicon
   -->
-  <link rel="icon" href="./assets/images/Group%206815.png" type="image/svg+xml">
+		<link rel="icon" href="./assets/images/Group%206815.png" type="image/svg+xml" />
 
-  <!-- 
+		<!--
     - google font link
   -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&family=Forum&display=swap" rel="stylesheet" />
 
-  <!-- 
+		<!--
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+		<link rel="stylesheet" href="./assets/css/style.css" />
 
-  <!-- 
+		<!--
     - preload images
   -->
-  <link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg">
-  <link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg">
-  <link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg">
+		<link rel="preload" as="image" href="./assets/images/hero-slider-1.jpg" />
+		<link rel="preload" as="image" href="./assets/images/hero-slider-2.jpg" />
+		<link rel="preload" as="image" href="./assets/images/hero-slider-3.jpg" />
+	</head>
 
-</head>
-
-<body id="top">
-
-  <!--
+	<body id="top">
+		<!--
     - #PRELOADER
   -->
 
-  <div class="preload" data-preaload>
-  </div>
+		<div class="preload" data-preaload></div>
 
-
-
-
-
-  <!--
+		<!--
     - #TOP BAR
   -->
 
-  <div class="topbar">
-    <div class="container">
+		<div class="topbar">
+			<div class="container">
+				<address class="topbar-item">
+					<div class="icon">
+						<ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+					</div>
 
-      <address class="topbar-item">
-        <div class="icon">
-          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
-        </div>
+					<span class="span"> Toshkent shahar, Sergeli tumani, Xonobod ko’chasi </span>
+				</address>
 
-        <span class="span">
-          Toshkent shahar, Sergeli tumani, Xonobod ko’chasi
-        </span>
-      </address>
+				<div class="separator"></div>
 
-      <div class="separator"></div>
+				<div class="topbar-item item-2"></div>
 
-      <div class="topbar-item item-2">
-      </div>
+				<div class="separator"></div>
 
-      <div class="separator"></div>
+				<a href="tel:+998994059805" class="topbar-item link">
+					<div class="icon">
+						<ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+					</div>
 
-      <a href="tel:+998994059805" class="topbar-item link">
-        <div class="icon">
-          <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
-        </div>
+					<span class="span">+998 99 405 98 05</span>
+				</a>
+			</div>
+		</div>
 
-        <span class="span">+998 99 405 98 05</span>
-      </a>
-
-    </div>
-  </div>
-
-
-
-
-
-  <!-- 
+		<!--
     - #HEADER
   -->
 
-  <header class="header" data-header>
-    <div class="container">
-
-      <a href="#" class="logo">
-        <img src="./assets/images/Group%206815.png" width="160" height="40" alt="StolStul.uz">
-      </a>
-
-      <nav class="navbar" data-navbar>
-        <button class="close-btn" aria-label="close menu" data-nav-toggler>
-          <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
-        </button>
-
-        <a href="#" class="logo">
-          <img src="./assets/images/Group%206815.png" width="160" height="50" alt="Grilli - Home">
-        </a>
-
-        <ul class="navbar-list">
-
-          <li class="navbar-item">
-            <a href="https://instagram.com/stolstuluz?igshid=MzRlODBiNWFlZA==" class="navbar-link hover-underline">
-              <div class="separator"></div>
-
-              <span class="span">Instagram</span>
-            </a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="https://www.facebook.com/stolstuluz?mibextid=9R9pXO" class="navbar-link hover-underline">
-              <div class="separator"></div>
-
-              <span class="span">Facebook</span>
-            </a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="https://t.me/stolstuluz" class="navbar-link hover-underline">
-              <div class="separator"></div>
-
-              <span class="span">Telegram</span>
-            </a>
-          </li>
-
-          <li class="navbar-item">
-            <a href="https://www.youtube.com/@Stolstuluz" class="navbar-link hover-underline">
-              <div class="separator"></div>
-
-              <span class="span">You Tube</span>
-            </a>
-          </li>
-
-        </ul>
-
-
-      </nav>
-      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
-        <span class="line line-1"></span>
-        <span class="line line-2"></span>
-        <span class="line line-3"></span>
-      </button>
-
-      <div class="overlay" data-nav-toggler data-overlay></div>
-
-    </div>
-  </header>
-
-  <main>
-    <article>
-
-
-
-      <section class="hero text-center" aria-label="home" id="home">
-
-        <ul class="hero-slider" data-hero-slider>
-
-          <li class="slider-item active" data-hero-slider-item>
-
-            <div class="slider-bg">
-              <img src="./assets/images/background.jpeg" width="1880" height="950" alt="" class="img-cover">
-            </div>
-
-            <p class="label-2 section-subtitle slider-reveal">Milliylik & Zamonaviylik</p>
-
-            <h1 class="display-1 hero-title slider-reveal">
-              Lorem ipsum <br>
-              Lorem ipsum zet
-            </h1>
-
-            <p class="body-2 hero-text slider-reveal">
-              Come with family & feel the joy of mouthwatering furniture
-            </p>
-
-            <a href="#" class="btn btn-primary slider-reveal">
-              <span class="text text-1">View Our Menu</span>
-
-              <span class="text text-2" aria-hidden="true">View Our Menu</span>
-            </a>
-
-          </li>
-
-          <li class="slider-item" data-hero-slider-item>
-
-            <div class="slider-bg">
-              <img src="./assets/images/background-2.jpeg" width="1880" height="950" alt="" class="img-cover">
-            </div>
-
-            <p class="label-2 section-subtitle slider-reveal">Takrorlanmas Tajriba</p>
-
-            <h1 class="display-1 hero-title slider-reveal">
-              Flavors Inspired by <br>
-              the Seasons
-            </h1>
-
-            <p class="body-2 hero-text slider-reveal">
-              Come with family & feel the joy of mouthwatering furniture
-            </p>
-
-            <a href="#" class="btn btn-primary slider-reveal">
-              <span class="text text-1">View Our Menu</span>
-
-              <span class="text text-2" aria-hidden="true">View Our Menu</span>
-            </a>
-
-          </li>
-
-        </ul>
-
-        <button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
-          <ion-icon name="chevron-back"></ion-icon>
-        </button>
-
-        <button class="slider-btn next" aria-label="slide to next" data-next-btn>
-          <ion-icon name="chevron-forward"></ion-icon>
-        </button>
-
-
-
-      </section>
-
-
-
-
-
-
-
-      <section class="section service bg-black-10 text-center" aria-label="service">
-        <div class="container">
-
-          <p class="section-subtitle label-2">Hayotni Go'zallashtiramiz</p>
-
-          <h2 class="headline-1 section-title">Biz eng yuqori darajani taklif qilamiz</h2>
-
-          <p class="section-text">
-           Uy, Kafe, Restoran, Mehmonxonalar  uchun barcha turdagi stol-stullarni bizdan oson topishiz mumkin!
-          </p>
-
-          <ul class="grid-list">
-
-            <li>
-              <div class="service-card">
-
-                <a href="#" class="has-before hover:shine">
-                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
-                    <img src="./assets/images/IMG_7698.JPG" width="285" height="336" loading="lazy" alt="Breakfast"
-                      class="img-cover">
-                  </figure>
-                </a>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="service-card">
-
-                <a href="#" class="has-before hover:shine">
-                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
-                    <img src="./assets/images/IMG_8237.JPG" width="285" height="336" loading="lazy" alt="Appetizers"
-                      class="img-cover">
-                  </figure>
-                </a>
-
-              </div>
-            </li>
-
-            <li>
-              <div class="service-card">
-
-                <a href="#" class="has-before hover:shine">
-                  <figure class="card-banner img-holder" style="--width: 285; --height: 336;">
-                    <img src="./assets/images/IMG_8321.JPG" width="285" height="336" loading="lazy" alt="Drinks"
-                      class="img-cover">
-                  </figure>
-                </a>
-
-              </div>
-            </li>
-
-          </ul>
-
-          <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape"
-            class="shape shape-1 move-anim">
-          <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape"
-            class="shape shape-2 move-anim">
-
-        </div>
-      </section>
-
-
-
-
-
-
-
-
-
-
-
-
-      <section class="reservation">
-        <div class="container">
-
-          <div class="form reservation-form bg-black-10">
-
-            <iframe class="form-left" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000.847993942192!2d69.26951277650124!3d41.22508290604616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae61bf92c68405%3A0x13b3bd3727f6fbc7!2sAlfa%20Mebel!5e0!3m2!1suz!2s!4v1697644077140!5m2!1suz!2s" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
-            <div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
-
-              <h2 class="headline-1 text-center">Biz bilan aloqa</h2>
-
-              <p class="contact-label">Alfa Mebel</p>
-
-              <a href="tel:+998994059805" class="body-1 contact-number hover-underline">+99899 405 98 05</a>
-
-              <div class="separator"></div>
-
-              <p class="contact-label">Manzil</p>
-
-              <address class="body-4">
-                Toshkent shahar, Sergeli tumani <br>
-                Xonobod ko’chasi
-              </address>
-
-              <p class="body-4">
-                <a href="https://instagram.com/stolstuluz?igshid=MzRlODBiNWFlZA==" class="navbar-link hover-underline">
-                  <span class="span">Instagram</span>
-                </a>
-              </p>
-
-              <p class="body-4">
-                <a href="https://www.facebook.com/stolstuluz?mibextid=9R9pXO" class="navbar-link hover-underline">
-                  <span class="span">Facebook</span>
-                </a>
-              </p>
-
-              <p class="body-4">
-                <a href="https://t.me/stolstuluz" class="navbar-link hover-underline">
-                  <span class="span">Telegram</span>
-                </a>
-              </p>
-
-              <p class="body-4">
-                <a href="https://www.youtube.com/@Stolstuluz" class="navbar-link hover-underline">
-                  <span class="span">You Tube</span>
-                </a>
-              </p>
-
-            </div>
-
-          </div>
-
-        </div>
-      </section>
-
-
-
-
-
-
-
-      <section class="section features text-center" aria-label="features">
-        <div class="container">
-
-          <p class="section-subtitle label-2">Nima uchun Bizni tanlashiz kerak ?</p>
-
-          <h2 class="headline-1 section-title">Bizning Ustunliklarimiz</h2>
-
-          <ul class="grid-list">
-
-            <li class="feature-item">
-              <div class="feature-card">
-
-                <div class="card-icon">
-                  <img src="./assets/images/delivery-truck.png" width="100" height="80" loading="lazy" alt="icon">
-                </div>
-
-                <h3 class="title-2 card-title">Bepul Yetkazish</h3>
-
-                <p class="label-1 card-text">Toshkent shahar boylab bepul yetkazib berish xizmati mavjud!</p>
-
-              </div>
-            </li>
-
-            <li class="feature-item">
-              <div class="feature-card">
-
-                <div class="card-icon">
-                  <img src="./assets/images/best-seller.png" width="100" height="80" loading="lazy" alt="icon">
-                </div>
-
-                <h3 class="title-2 card-title">Sifat</h3>
-
-                <p class="label-1 card-text">Chiroy va chidam bizning mahsulotda mujassam</p>
-
-              </div>
-            </li>
-
-            <li class="feature-item">
-              <div class="feature-card">
-
-                <div class="card-icon">
-                  <img src="./assets/images/deadline.png" width="100" height="80" loading="lazy" alt="icon">
-                </div>
-
-                <h3 class="title-2 card-title">Tezlik</h3>
-
-                <p class="label-1 card-text">Qisqa muddat ichida mahsulotlarni tayyorlab berish</p>
-
-              </div>
-            </li>
-
-            <li class="feature-item">
-              <div class="feature-card">
-
-                <div class="card-icon">
-                  <img src="./assets/images/experience.png" width="100" height="80" loading="lazy" alt="icon">
-                </div>
-
-                <h3 class="title-2 card-title">Tajriba</h3>
-
-                <p class="label-1 card-text">O'z ishining ustalari tomonidan qilingan ishlar taqdim etiladi</p>
-
-              </div>
-            </li>
-
-          </ul>
-
-          <img src="./assets/images/shape-8.png" width="120" height="115" loading="lazy" alt="shape"
-            class="shape shape-2">
-
-        </div>
-      </section>
-
-
-
-
-
-
-
-
-    </article>
-  </main>
-
-
-
-
-
-  <!-- 
+		<header class="header" data-header>
+			<div class="container">
+				<a href="#" class="logo">
+					<img src="./assets/images/Group%206815.png" width="160" height="40" alt="StolStul.uz" />
+				</a>
+
+				<nav class="navbar" data-navbar>
+					<button class="close-btn" aria-label="close menu" data-nav-toggler>
+						<ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+					</button>
+
+					<a href="#" class="logo">
+						<img src="./assets/images/Group%206815.png" width="160" height="50" alt="Grilli - Home" />
+					</a>
+
+					<ul class="navbar-list">
+						<li class="navbar-item">
+							<a href="https://instagram.com/stolstuluz?igshid=MzRlODBiNWFlZA==" class="navbar-link hover-underline">
+								<div class="separator"></div>
+
+								<span class="span">Instagram</span>
+							</a>
+						</li>
+
+						<li class="navbar-item">
+							<a href="https://www.facebook.com/stolstuluz?mibextid=9R9pXO" class="navbar-link hover-underline">
+								<div class="separator"></div>
+
+								<span class="span">Facebook</span>
+							</a>
+						</li>
+
+						<li class="navbar-item">
+							<a href="https://t.me/stolstuluz" class="navbar-link hover-underline">
+								<div class="separator"></div>
+
+								<span class="span">Telegram</span>
+							</a>
+						</li>
+
+						<li class="navbar-item">
+							<a href="https://www.youtube.com/@Stolstuluz" class="navbar-link hover-underline">
+								<div class="separator"></div>
+
+								<span class="span">You Tube</span>
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+					<span class="line line-1"></span>
+					<span class="line line-2"></span>
+					<span class="line line-3"></span>
+				</button>
+
+				<div class="overlay" data-nav-toggler data-overlay></div>
+			</div>
+		</header>
+
+		<main>
+			<article>
+				<section class="hero text-center" aria-label="home" id="home">
+					<ul class="hero-slider" data-hero-slider>
+						<li class="slider-item active" data-hero-slider-item>
+							<div class="slider-bg">
+								<img src="./assets/images/background.jpeg" width="1880" height="950" alt="" class="img-cover" />
+							</div>
+
+							<p class="label-2 section-subtitle slider-reveal">Milliylik & Zamonaviylik</p>
+
+							<h1 class="display-1 hero-title slider-reveal">
+								Lorem ipsum <br />
+								Lorem ipsum zet
+							</h1>
+
+							<p class="body-2 hero-text slider-reveal">Come with family & feel the joy of mouthwatering furniture</p>
+
+							<a href="#" class="btn btn-primary slider-reveal">
+								<span class="text text-1">View Our Menu</span>
+
+								<span class="text text-2" aria-hidden="true">View Our Menu</span>
+							</a>
+						</li>
+
+						<li class="slider-item" data-hero-slider-item>
+							<div class="slider-bg">
+								<img src="./assets/images/background-2.jpeg" width="1880" height="950" alt="" class="img-cover" />
+							</div>
+
+							<p class="label-2 section-subtitle slider-reveal">Takrorlanmas Tajriba</p>
+
+							<h1 class="display-1 hero-title slider-reveal">
+								Flavors Inspired by <br />
+								the Seasons
+							</h1>
+
+							<p class="body-2 hero-text slider-reveal">Come with family & feel the joy of mouthwatering furniture</p>
+
+							<a href="#" class="btn btn-primary slider-reveal">
+								<span class="text text-1">View Our Menu</span>
+
+								<span class="text text-2" aria-hidden="true">View Our Menu</span>
+							</a>
+						</li>
+					</ul>
+
+					<button class="slider-btn prev" aria-label="slide to previous" data-prev-btn>
+						<ion-icon name="chevron-back"></ion-icon>
+					</button>
+
+					<button class="slider-btn next" aria-label="slide to next" data-next-btn>
+						<ion-icon name="chevron-forward"></ion-icon>
+					</button>
+				</section>
+
+				<section class="section service bg-black-10 text-center" aria-label="service">
+					<div class="container">
+						<p class="section-subtitle label-2">Hayotni Go'zallashtiramiz</p>
+
+						<h2 class="headline-1 section-title">Biz eng yuqori darajani taklif qilamiz</h2>
+
+						<p class="section-text">
+							Uy, Kafe, Restoran, Mehmonxonalar uchun barcha turdagi stol-stullarni bizdan oson topishiz mumkin!
+						</p>
+
+						<ul class="grid-list">
+							<li>
+								<div class="service-card">
+									<a href="#" class="has-before hover:shine">
+										<figure class="card-banner img-holder" style="--width: 285; --height: 336">
+											<img
+												src="./assets/images/IMG_7698.JPG"
+												width="285"
+												height="336"
+												loading="lazy"
+												alt="Breakfast"
+												class="img-cover" />
+										</figure>
+									</a>
+								</div>
+							</li>
+
+							<li>
+								<div class="service-card">
+									<a href="#" class="has-before hover:shine">
+										<figure class="card-banner img-holder" style="--width: 285; --height: 336">
+											<img
+												src="./assets/images/IMG_8237.JPG"
+												width="285"
+												height="336"
+												loading="lazy"
+												alt="Appetizers"
+												class="img-cover" />
+										</figure>
+									</a>
+								</div>
+							</li>
+
+							<li>
+								<div class="service-card">
+									<a href="#" class="has-before hover:shine">
+										<figure class="card-banner img-holder" style="--width: 285; --height: 336">
+											<img
+												src="./assets/images/IMG_8321.JPG"
+												width="285"
+												height="336"
+												loading="lazy"
+												alt="Drinks"
+												class="img-cover" />
+										</figure>
+									</a>
+								</div>
+							</li>
+						</ul>
+
+						<img
+							src="./assets/images/shape-1.png"
+							width="246"
+							height="412"
+							loading="lazy"
+							alt="shape"
+							class="shape shape-1 move-anim" />
+						<img
+							src="./assets/images/shape-2.png"
+							width="343"
+							height="345"
+							loading="lazy"
+							alt="shape"
+							class="shape shape-2 move-anim" />
+					</div>
+				</section>
+
+				<section class="reservation">
+					<div class="container">
+						<div class="form reservation-form bg-black-10">
+							<iframe
+								class="form-left"
+								src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3000.847993942192!2d69.26951277650124!3d41.22508290604616!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae61bf92c68405%3A0x13b3bd3727f6fbc7!2sAlfa%20Mebel!5e0!3m2!1suz!2s!4v1697644077140!5m2!1suz!2s"
+								width="100%"
+								height="100%"
+								style="border: 0"
+								allowfullscreen=""
+								loading="lazy"
+								referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+							<div class="form-right text-center" style="background-image: url('./assets/images/form-pattern.png')">
+								<h2 class="headline-1 text-center">Biz bilan aloqa</h2>
+
+								<p class="contact-label">Alfa Mebel</p>
+
+								<a href="tel:+998994059805" class="body-1 contact-number hover-underline">+99899 405 98 05</a>
+
+								<div class="separator"></div>
+
+								<p class="contact-label">Manzil</p>
+
+								<address class="body-4">
+									Toshkent shahar, Sergeli tumani <br />
+									Xonobod ko’chasi
+								</address>
+
+								<p class="body-4">
+									<a href="https://instagram.com/stolstuluz?igshid=MzRlODBiNWFlZA==" class="navbar-link hover-underline">
+										<span class="span">Instagram</span>
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M12 2C14.717 2 15.056 2.01 16.122 2.06C17.187 2.11 17.912 2.277 18.55 2.525C19.21 2.779 19.766 3.123 20.322 3.678C20.8305 4.1779 21.224 4.78259 21.475 5.45C21.722 6.087 21.89 6.813 21.94 7.878C21.987 8.944 22 9.283 22 12C22 14.717 21.99 15.056 21.94 16.122C21.89 17.187 21.722 17.912 21.475 18.55C21.2247 19.2178 20.8311 19.8226 20.322 20.322C19.822 20.8303 19.2173 21.2238 18.55 21.475C17.913 21.722 17.187 21.89 16.122 21.94C15.056 21.987 14.717 22 12 22C9.283 22 8.944 21.99 7.878 21.94C6.813 21.89 6.088 21.722 5.45 21.475C4.78233 21.2245 4.17753 20.8309 3.678 20.322C3.16941 19.8222 2.77593 19.2175 2.525 18.55C2.277 17.913 2.11 17.187 2.06 16.122C2.013 15.056 2 14.717 2 12C2 9.283 2.01 8.944 2.06 7.878C2.11 6.812 2.277 6.088 2.525 5.45C2.77524 4.78218 3.1688 4.17732 3.678 3.678C4.17767 3.16923 4.78243 2.77573 5.45 2.525C6.088 2.277 6.812 2.11 7.878 2.06C8.944 2.013 9.283 2 12 2ZM12 7C10.6739 7 9.40215 7.52678 8.46447 8.46447C7.52678 9.40215 7 10.6739 7 12C7 13.3261 7.52678 14.5979 8.46447 15.5355C9.40215 16.4732 10.6739 17 12 17C13.3261 17 14.5979 16.4732 15.5355 15.5355C16.4732 14.5979 17 13.3261 17 12C17 10.6739 16.4732 9.40215 15.5355 8.46447C14.5979 7.52678 13.3261 7 12 7ZM18.5 6.75C18.5 6.41848 18.3683 6.10054 18.1339 5.86612C17.8995 5.6317 17.5815 5.5 17.25 5.5C16.9185 5.5 16.6005 5.6317 16.3661 5.86612C16.1317 6.10054 16 6.41848 16 6.75C16 7.08152 16.1317 7.39946 16.3661 7.63388C16.6005 7.8683 16.9185 8 17.25 8C17.5815 8 17.8995 7.8683 18.1339 7.63388C18.3683 7.39946 18.5 7.08152 18.5 6.75ZM12 9C12.7956 9 13.5587 9.31607 14.1213 9.87868C14.6839 10.4413 15 11.2044 15 12C15 12.7956 14.6839 13.5587 14.1213 14.1213C13.5587 14.6839 12.7956 15 12 15C11.2044 15 10.4413 14.6839 9.87868 14.1213C9.31607 13.5587 9 12.7956 9 12C9 11.2044 9.31607 10.4413 9.87868 9.87868C10.4413 9.31607 11.2044 9 12 9Z"
+												fill="#e4c590" />
+										</svg>
+									</a>
+								</p>
+
+								<p class="body-4">
+									<a href="https://www.facebook.com/stolstuluz?mibextid=9R9pXO" class="navbar-link hover-underline">
+										<span class="span">Facebook</span>
+										<svg width="11" height="20" viewBox="0 0 11 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M7 11.5H9.5L10.5 7.5H7V5.5C7 4.47 7 3.5 9 3.5H10.5V0.14C10.174 0.0970001 8.943 0 7.643 0C4.928 0 3 1.657 3 4.7V7.5H0V11.5H3V20H7V11.5Z"
+												fill="#e4c590" />
+										</svg>
+									</a>
+								</p>
+
+								<p class="body-4">
+									<a href="https://t.me/stolstuluz" class="navbar-link hover-underline">
+										<span class="span">Telegram</span>
+										<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path
+												d="M12 0C5.376 0 0 5.376 0 12C0 18.624 5.376 24 12 24C18.624 24 24 18.624 24 12C24 5.376 18.624 0 12 0ZM17.568 8.16C17.388 10.056 16.608 14.664 16.212 16.788C16.044 17.688 15.708 17.988 15.396 18.024C14.7 18.084 14.172 17.568 13.5 17.124C12.444 16.428 11.844 15.996 10.824 15.324C9.636 14.544 10.404 14.112 11.088 13.416C11.268 13.236 14.34 10.44 14.4 10.188C14.412 10.152 14.412 10.044 14.34 9.972C14.268 9.912 14.172 9.936 14.088 9.948C13.98 9.972 12.3 11.088 9.024 13.296C8.544 13.62 8.112 13.788 7.728 13.776C7.296 13.764 6.48 13.536 5.868 13.332C5.112 13.092 4.524 12.96 4.572 12.54C4.596 12.324 4.896 12.108 5.46 11.88C8.964 10.356 11.292 9.348 12.456 8.868C15.792 7.476 16.476 7.236 16.932 7.236C17.028 7.236 17.256 7.26 17.4 7.38C17.52 7.476 17.556 7.608 17.568 7.704C17.556 7.776 17.58 7.992 17.568 8.16Z"
+												fill="#e4c590" />
+										</svg>
+									</a>
+								</p>
+
+								<p class="body-4">
+									<a href="https://www.youtube.com/@Stolstuluz" class="navbar-link hover-underline">
+										<span class="span">You Tube</span>
+										<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="24px" height="24px">
+											<path
+												fill="#e4c590"
+												d="M43.2,33.9c-0.4,2.1-2.1,3.7-4.2,4c-3.3,0.5-8.8,1.1-15,1.1c-6.1,0-11.6-0.6-15-1.1c-2.1-0.3-3.8-1.9-4.2-4C4.4,31.6,4,28.2,4,24c0-4.2,0.4-7.6,0.8-9.9c0.4-2.1,2.1-3.7,4.2-4C12.3,9.6,17.8,9,24,9c6.2,0,11.6,0.6,15,1.1c2.1,0.3,3.8,1.9,4.2,4c0.4,2.3,0.9,5.7,0.9,9.9C44,28.2,43.6,31.6,43.2,33.9z" />
+											<path fill="#000" d="M20 31L20 17 32 24z" />
+										</svg>
+									</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</section>
+
+				<section class="section features text-center" aria-label="features">
+					<div class="container">
+						<p class="section-subtitle label-2">Nima uchun Bizni tanlashiz kerak ?</p>
+
+						<h2 class="headline-1 section-title">Bizning Ustunliklarimiz</h2>
+
+						<ul class="grid-list">
+							<li class="feature-item">
+								<div class="feature-card">
+									<div class="card-icon">
+										<img src="./assets/images/delivery-truck.png" width="100" height="80" loading="lazy" alt="icon" />
+									</div>
+
+									<h3 class="title-2 card-title">Bepul Yetkazish</h3>
+
+									<p class="label-1 card-text">Toshkent shahar boylab bepul yetkazib berish xizmati mavjud!</p>
+								</div>
+							</li>
+
+							<li class="feature-item">
+								<div class="feature-card">
+									<div class="card-icon">
+										<img src="./assets/images/best-seller.png" width="100" height="80" loading="lazy" alt="icon" />
+									</div>
+
+									<h3 class="title-2 card-title">Sifat</h3>
+
+									<p class="label-1 card-text">Chiroy va chidam bizning mahsulotda mujassam</p>
+								</div>
+							</li>
+
+							<li class="feature-item">
+								<div class="feature-card">
+									<div class="card-icon">
+										<img src="./assets/images/deadline.png" width="100" height="80" loading="lazy" alt="icon" />
+									</div>
+
+									<h3 class="title-2 card-title">Tezlik</h3>
+
+									<p class="label-1 card-text">Qisqa muddat ichida mahsulotlarni tayyorlab berish</p>
+								</div>
+							</li>
+
+							<li class="feature-item">
+								<div class="feature-card">
+									<div class="card-icon">
+										<img src="./assets/images/experience.png" width="100" height="80" loading="lazy" alt="icon" />
+									</div>
+
+									<h3 class="title-2 card-title">Tajriba</h3>
+
+									<p class="label-1 card-text">O'z ishining ustalari tomonidan qilingan ishlar taqdim etiladi</p>
+								</div>
+							</li>
+						</ul>
+
+						<img src="./assets/images/shape-8.png" width="120" height="115" loading="lazy" alt="shape" class="shape shape-2" />
+					</div>
+				</section>
+			</article>
+		</main>
+
+		<!--
     - #FOOTER
   -->
 
-  <footer class="footer text-center">
-    <div class="footer-bottom">
-      <p class="copyright">
-        &copy; 2023 Barcha huquqlar ximoyalangan
-      </p>
-    </div>
-  </footer>
+		<footer class="footer text-center">
+			<div class="footer-bottom">
+				<p class="copyright">&copy; 2023 Barcha huquqlar ximoyalangan</p>
+			</div>
+		</footer>
 
-
-
-
-
-  <!-- 
+		<!--
     - #BACK TO TOP
   -->
 
-  <a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
-    <ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
-  </a>
+		<a href="#top" class="back-top-btn active" aria-label="back to top" data-back-top-btn>
+			<ion-icon name="chevron-up" aria-hidden="true"></ion-icon>
+		</a>
 
-
-
-
-
-  <!-- 
+		<!--
     - custom js link
   -->
-  <script src="./assets/js/script.js"></script>
+		<script src="./assets/js/script.js"></script>
 
-  <!-- 
+		<!--
     - ionicon link
   -->
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
-
-</body>
-
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	</body>
 </html>
