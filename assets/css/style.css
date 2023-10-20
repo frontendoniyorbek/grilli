@@ -1298,6 +1298,10 @@ body.nav-active {
   #RESERVATION
 \*-----------------------------------*/
 
+.reservation {
+	margin-top: 280px;
+}
+
 .reservation-form {
 	margin-block-start: 70px;
 }
