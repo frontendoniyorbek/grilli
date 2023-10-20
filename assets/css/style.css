@@ -1299,7 +1299,7 @@ body.nav-active {
 \*-----------------------------------*/
 
 .reservation {
-	margin-top: 280px;
+	margin-top: 230px;
 }
 
 .reservation-form {
@@ -1805,9 +1805,45 @@ textarea.input-field {
 	}
 }
 
+.social-media-top {
+	display: none;
+}
+
 /**
  * responsive for larger than 992px screen
  */
+
+@media (max-width: 992px) {
+	.social-media {
+		display: none;
+	}
+
+	.social-media-top {
+		display: block;
+		margin-top: 230px;
+	}
+
+	.reservation {
+		margin-top: 0;
+	}
+
+	.social__conatiner {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+
+	.social-media__wraper {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.social-media__wraper span {
+		margin-bottom: 10px;
+	}
+}
 
 @media (min-width: 992px) {
 	/**
